@@ -10,7 +10,7 @@
       'use strict'
       var qer = document.location.search.substring(1);
       var prmt = qer.split('=');
-      if (decodeURIComponent(element[0]) === "q") {
+      if (decodeURIComponent(prmt[0]) === "q") {
         document.getElementById('value').textContent = decodeURIComponent(qer);
       } else {
         document.getElementById("value").textContent = "Bad parameters."
