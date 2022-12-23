@@ -8,8 +8,12 @@
     <h1 id="value"></h1>
     <script>
       'use strict'
-      var qer = document.location.search.substring(3);
-      document.getElementById('value').textContent = qer;
+      var qer = document.location.search.substring(1);
+      var prmt = qer.split('=');
+      if (decodeURIComponent(element[0]) === "q") {
+        document.getElementById('value').textContent = decodeURIComponent(qer);
+      } else {
+        document.getElementById("value").textContent = "Bad parameters."
     </script>
   </body>
 </html>
