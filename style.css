@@ -3,17 +3,20 @@ body {
 	color: #3f2700;
 	height: 90vh;
 	
-	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .container {
-	margin: 0 auto;
-	background-color: white;
+	background-color:white;
+  border-style:outset;
+  border-width:15px;
+
+  margin: 0 auto;
 	padding: 20px;
-	width: 200px;
+	width: 25%;
+  max-width: 400px;
 }
 
 p {
