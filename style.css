@@ -1,0 +1,17 @@
+body {
+	background-color: #D0c5ad;
+	color: #3f2700;
+  text-align: center;
+  margin: 40% auto
+}
+
+.container {
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  width: 200px;
+}
+
+p {
+  margin: 10px;
+}
