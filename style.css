@@ -1,21 +1,21 @@
 body {
 	background-color: #D0c5ad;
 	color: #3f2700;
-  text-align: center;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+	height: 90vh;
+	
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .container {
-  margin: 0 auto;
-  background-color: white;
-  padding: 20px;
-  width: 200px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	width: 200px;
 }
 
 p {
-  margin: 10px;
+	margin: 10px;
 }
