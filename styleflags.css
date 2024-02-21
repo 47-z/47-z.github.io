@@ -1,0 +1,54 @@
+body {
+	background-color: #D0c5ad;
+	color: #3f2700;
+	height: 90vh;
+	
+	display: flex;
+	flex-wrap: wrap;
+	float: center;
+	align-items: center;
+	justify-content: center;
+}
+
+div.color {
+	background-color: red;
+	width: 320px;
+	height: 198px;
+}
+
+div.gallery {
+	margin: 5px;
+	float: left;
+	width: 320px;
+}
+
+div.gallery img {
+	width: 320px;
+	height: 189px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.links_head {
+	padding-top:2px;
+	padding-bottom:2px;
+	cursor: pointer;
+	position: relative;
+	margin: 0px;
+	text-align: center;
+	font-size: 4vh;
+	background-color: white;
+	border: 4px outset;
+}
+
+.links_body {
+	padding: 10px;
+	text-align: left;
+	font-family: inconsolata;
+	line-height: 1.3em;
+	display: none;
+	background-color: white;
+}
