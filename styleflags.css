@@ -39,7 +39,7 @@ div.desc {
 	position: relative;
 	margin: 0px;
 	text-align: center;
-	font-size: 4vh;
+	font-size: 6vh;
 	background-color: white;
 	border: 4px outset;
 }
@@ -47,8 +47,18 @@ div.desc {
 .links_body {
 	padding: 10px;
 	text-align: left;
+	position: absolute;
+	z-index: 1;
+	box-sizing: border-box;
+	width:320px;
 	font-family: inconsolata;
 	line-height: 1.3em;
 	display: none;
 	background-color: white;
+	border: 4px outset;
+	border-top: none;
+}
+
+div.gallery a {
+	font-size: 3vh;
 }
