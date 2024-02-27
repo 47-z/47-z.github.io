@@ -2,7 +2,14 @@ body {
 	background-color: #D0c5ad;
 	color: #3f2700;
 	height: 90vh;
-	
+}
+
+h2 {
+	text-align: center;
+	margin-top: 15vh;
+}
+
+div.gallery {
 	display: flex;
 	flex-wrap: wrap;
 	float: center;
@@ -16,13 +23,13 @@ div.color {
 	height: 198px;
 }
 
-div.gallery {
+div.flag {
 	margin: 5px;
 	float: left;
 	width: 320px;
 }
 
-div.gallery img {
+div.flag img {
 	width: 320px;
 	height: 189px;
 }
@@ -57,8 +64,4 @@ div.desc {
 	background-color: white;
 	border: 4px outset;
 	border-top: none;
-}
-
-div.gallery a {
-	font-size: 3vh;
 }
