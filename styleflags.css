@@ -1,12 +1,18 @@
+@font-face {
+	font-family: VCR OSD Mono Regular;
+	src: url(VCR_OSD_MONO_1.001.ttf)
+}
+
 body {
-	background-color: #D0c5ad;
-	color: #3f2700;
+	background-image: url("https://file.garden/ZT_Uy1MKnEU1c7Kr/Resources/bck-gridbg.gif");
 	height: 90vh;
+	font-family: VCR OSD Mono Regular;
 }
 
 h2 {
 	text-align: center;
 	margin-top: 15vh;
+	color: white;
 }
 
 div.gallery {
@@ -22,16 +28,14 @@ div.flag {
 	margin: 5px;
 	float: left;
 	width: 250px;
+	border-image: url("images/border.png") 11 8;
+	border-style: solid;
+	border-width: 11px 8px;
 }
 
 div.flag img {
 	width: 250px;
 	height: 140px;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
 }
 
 .links_head {
@@ -41,9 +45,19 @@ div.desc {
 	position: relative;
 	margin: 0px;
 	text-align: center;
-	font-size: 4vh;
+	font-size: 2.5vh;
 	background-color: white;
-	border: 4px outset;
+
+	border-image: url("images/border.png") 11 8;
+	border-style: solid;
+	border-width: 11px 8px;
+	border-bottom: none;
+  border-radius: 20px 20px 0px 0px;
+
+}
+
+.links_head:hover {
+    background-color: #ff8d46;
 }
 
 .links_body {
@@ -57,6 +71,10 @@ div.desc {
 	line-height: 1.3em;
 	display: none;
 	background-color: white;
-	border: 4px outset;
+
+	border-image: url("images/border.png") 11 8;
+	border-radius: 0px 0px 35px 35px;
+	border-style: solid;
+	border-width: 11px 8px;
 	border-top: none;
 }
